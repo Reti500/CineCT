@@ -33,7 +33,7 @@ public class MainFragment extends Fragment implements OnItemSelectedListener {
 	private Context context;
 	private Spinner projects;
 	private Spinner forms;
-	private Button ver;
+//	private Button ver;
 	private ArrayList<String> projects_json;
 	private ArrayList<String> forms_json;
 	
@@ -50,7 +50,7 @@ public class MainFragment extends Fragment implements OnItemSelectedListener {
 		
 		projects = (Spinner) rootView.findViewById(R.id.main_spinner_project);
 		forms = (Spinner) rootView.findViewById(R.id.main_spinner_form);
-		ver = (Button) rootView.findViewById(R.id.main_button_ver);
+//		ver = (Button) rootView.findViewById(R.id.main_button_ver);
 		
 		projects_json = new ArrayList<String>();
 		forms_json = new ArrayList<String>();
@@ -58,14 +58,14 @@ public class MainFragment extends Fragment implements OnItemSelectedListener {
 		projects.setOnItemSelectedListener(this);
 		forms.setOnItemSelectedListener(this);
 		
-		ver.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				goForm();
-			}
-		});
+//		ver.setOnClickListener(new OnClickListener() {
+//			
+//			@Override
+//			public void onClick(View v) {
+//				// TODO Auto-generated method stub
+//				goForm();
+//			}
+//		});
 		
 		getInfo();
 		return rootView;

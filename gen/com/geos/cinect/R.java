@@ -33,8 +33,8 @@ public final class R {
         public static final int login_fragment=0x7f080002;
         public static final int login_text_password=0x7f080006;
         public static final int login_text_username=0x7f080005;
-        public static final int main_button_ver=0x7f08000a;
         public static final int main_fragment=0x7f080003;
+        public static final int main_fragment_form=0x7f08000a;
         public static final int main_spinner_form=0x7f080009;
         public static final int main_spinner_project=0x7f080008;
     }
@@ -45,6 +45,7 @@ public final class R {
         public static final int fragment_form=0x7f030003;
         public static final int fragment_login=0x7f030004;
         public static final int fragment_main=0x7f030005;
+        public static final int list_item_question=0x7f030006;
     }
     public static final class menu {
         public static final int form=0x7f070000;
